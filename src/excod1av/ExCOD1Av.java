@@ -5,6 +5,8 @@
  */
 package excod1av;
 
+import java.util.Scanner;
+
 /**
  *
  * @author damian
@@ -16,8 +18,13 @@ public class ExCOD1Av {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner sc = new Scanner (System.in);
         
         System.out.println("Buenos días, ¿Cuál es  tu nombre?");
+        String  respuesta = sc.nextLine();
+        
+        System.out.println("Encantada de conocerte, "+respuesta);
+        
     }
     
 }
