@@ -23,7 +23,9 @@ public class ExCOD1Av {
         System.out.println("Buenos días, ¿Cuál es  tu nombre?");
         String  respuesta = sc.nextLine();
         
-        System.out.println("Encantada de conocerte, "+respuesta);
+        System.out.println("Encantada de conocerte, "+respuesta+" ¿Podría preguntarte cuántos años tienes?");
+        respuesta = sc.nextLine();
+        
         
     }
     
