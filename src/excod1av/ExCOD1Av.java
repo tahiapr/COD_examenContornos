@@ -26,6 +26,8 @@ public class ExCOD1Av {
         System.out.println("Encantada de conocerte, "+respuesta);
         
         System.out.println("Yo soy una especie de asistente, así que déjame ayudarte");
+        
+        System.out.println("¿Hay algo que quieras saber?");
     }
     
 }
